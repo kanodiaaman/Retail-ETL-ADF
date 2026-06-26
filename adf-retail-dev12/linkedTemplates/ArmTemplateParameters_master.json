@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-retail-dev12"
+		},
+		"LS_ADLS_accountKey": {
+			"value": ""
+		},
+		"LS_Databricks_accessToken": {
+			"value": ""
+		},
+		"LS_Databricks_org_accessToken": {
+			"value": ""
+		},
+		"LS_ADLS_properties_typeProperties_url": {
+			"value": "https://stretaildev4821.dfs.core.windows.net/"
+		},
+		"LS_Databricks_org_properties_typeProperties_existingClusterId": {
+			"value": "0625-061923-m6zvkaqj"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
