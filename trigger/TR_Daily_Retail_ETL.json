@@ -1,0 +1,24 @@
+{
+	"name": "TR_Daily_Retail_ETL",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "PL_Retail_ETL",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2026-06-26T14:00:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
